@@ -8,7 +8,7 @@ class MountInformationProvider extends SingleChildRenderObjectWidget {
   const MountInformationProvider({
     Key key,
 
-    /// The widget which is wanted to know the mount information.
+    /// The widget which is wanted to get the mount information.
     Widget child,
     @required this.onRegionChanged,
   })  : assert(onRegionChanged != null),
